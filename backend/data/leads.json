@@ -1,0 +1,56 @@
+[
+  {
+    "name": "idrees",
+    "email": "laibaidrees2006@gmail.com",
+    "company": "awaya",
+    "status": "Proposal",
+    "revenue": 3000,
+    "lastContact": "2026-06-25",
+    "id": "1782404256846"
+  },
+  {
+    "id": "1",
+    "name": "John Doe",
+    "email": "john@techcorp.com",
+    "company": "TechCorp",
+    "status": "New",
+    "revenue": 5000,
+    "lastContact": "2024-03-10"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "email": "jane@innovate.io",
+    "company": "Innovate",
+    "status": "Qualified",
+    "revenue": 12000,
+    "lastContact": "2024-03-12"
+  },
+  {
+    "id": "3",
+    "name": "Bob Wilson",
+    "email": "bob@buildit.com",
+    "company": "BuildIt",
+    "status": "Proposal",
+    "revenue": 25000,
+    "lastContact": "2024-03-15"
+  },
+  {
+    "id": "4",
+    "name": "Alice Brown",
+    "email": "alice@dataflow.net",
+    "company": "DataFlow",
+    "status": "Negotiation",
+    "revenue": 45000,
+    "lastContact": "2024-03-18"
+  },
+  {
+    "id": "5",
+    "name": "Charlie Davis",
+    "email": "charlie@bright.com",
+    "company": "Bright Inc",
+    "status": "Closed",
+    "revenue": 15000,
+    "lastContact": "2024-03-20"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Launch teaser reel",
+    "submittedBy": "Cathy Content",
+    "type": "Post",
+    "status": "Approved",
+    "submittedAt": "2024-03-26"
+  },
+  {
+    "id": "2",
+    "title": "Spring banner set",
+    "submittedBy": "Cathy Content",
+    "type": "Asset",
+    "status": "Approved",
+    "submittedAt": "2024-03-27"
+  }
+]

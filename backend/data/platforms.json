@@ -1,0 +1,30 @@
+[
+  {
+    "name": "laiba",
+    "type": "Social",
+    "accountHandle": "jiya",
+    "status": "Disconnected",
+    "id": "1782403069495"
+  },
+  {
+    "id": "1",
+    "name": "Instagram",
+    "type": "Social",
+    "status": "Connected",
+    "accountHandle": "@markauto"
+  },
+  {
+    "id": "2",
+    "name": "Mailchimp",
+    "type": "Email",
+    "status": "Connected",
+    "accountHandle": "markauto-news"
+  },
+  {
+    "id": "3",
+    "name": "Google Ads",
+    "type": "Search",
+    "status": "Disconnected",
+    "accountHandle": "MarkAuto Ads"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "title": "Launch teaser reel",
+    "platform": "Instagram",
+    "scheduledFor": "2024-04-01T09:00",
+    "status": "Scheduled",
+    "assetName": "teaser.mp4"
+  },
+  {
+    "id": "2",
+    "title": "Feature highlight",
+    "platform": "YouTube",
+    "scheduledFor": "2024-04-03T12:00",
+    "status": "Draft"
+  },
+  {
+    "id": "3",
+    "title": "Customer story",
+    "platform": "Instagram",
+    "scheduledFor": "2024-03-28T15:00",
+    "status": "Published",
+    "assetName": "story.jpg"
+  }
+]

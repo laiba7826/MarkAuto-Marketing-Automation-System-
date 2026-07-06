@@ -1,0 +1,25 @@
+[
+  {
+    "fileName": "UseCase_Narrations_Full.pdf",
+    "type": "image",
+    "sizeKb": 48,
+    "uploadedAt": "2026-06-25",
+    "id": "1782403284159"
+  },
+  {
+    "id": "1",
+    "fileName": "teaser.mp4",
+    "type": "video",
+    "sizeKb": 8240,
+    "uploadedAt": "2024-03-25",
+    "linkedPost": "Launch teaser reel"
+  },
+  {
+    "id": "2",
+    "fileName": "story.jpg",
+    "type": "image",
+    "sizeKb": 540,
+    "uploadedAt": "2024-03-26",
+    "linkedPost": "Customer story"
+  }
+]

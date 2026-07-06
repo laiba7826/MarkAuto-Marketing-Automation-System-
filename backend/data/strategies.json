@@ -1,0 +1,30 @@
+[
+  {
+    "title": "reel",
+    "objective": "achieve high subscribers",
+    "owner": "idrees",
+    "status": "Active",
+    "id": "1782404133982"
+  },
+  {
+    "title": "reels grow",
+    "objective": "to achieve 1k subscribers",
+    "owner": "jiya",
+    "status": "Active",
+    "id": "1782403332685"
+  },
+  {
+    "id": "1",
+    "title": "Reels-first growth",
+    "objective": "Grow IG reach 30% in Q2",
+    "owner": "Cathy Content",
+    "status": "Active"
+  },
+  {
+    "id": "2",
+    "title": "Email re-engagement",
+    "objective": "Win back dormant subscribers",
+    "owner": "Cathy Content",
+    "status": "Archived"
+  }
+]

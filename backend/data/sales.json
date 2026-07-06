@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "leadName": "Charlie Davis",
+    "service": "SEO Package",
+    "revenue": 15000,
+    "closedAt": "2024-03-20"
+  },
+  {
+    "id": "2",
+    "leadName": "Acme Co",
+    "service": "Social Management",
+    "revenue": 22000,
+    "closedAt": "2024-03-22"
+  }
+]

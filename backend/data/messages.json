@@ -1,0 +1,62 @@
+[
+  {
+    "senderId": "1",
+    "senderName": "Admin User",
+    "senderRole": "Admin",
+    "content": "bro what changes u have to make",
+    "timestamp": "2026-06-25T16:56:14.171Z",
+    "read": true,
+    "recipientTeam": "Admin",
+    "id": "1782406574189"
+  },
+  {
+    "senderId": "1782403048927",
+    "senderName": "Idrees",
+    "senderRole": "Supervisor",
+    "content": "well i want to make the changes to the portal",
+    "timestamp": "2026-06-25T16:55:48.590Z",
+    "read": true,
+    "recipientTeam": "Admin",
+    "id": "1782406548853"
+  },
+  {
+    "senderId": "5",
+    "senderName": "Sam Sales",
+    "content": "np",
+    "timestamp": "2026-06-25T16:03:12.579Z",
+    "read": true,
+    "id": "1782403392587"
+  },
+  {
+    "senderId": "5",
+    "senderName": "Sam Sales",
+    "content": "hi",
+    "timestamp": "2026-06-25T16:03:02.481Z",
+    "read": true,
+    "id": "1782403382487"
+  },
+  {
+    "id": "1",
+    "senderId": "3",
+    "senderName": "Mark Marketing",
+    "content": "Hey, did you review the latest campaign assets?",
+    "timestamp": "2024-03-20T10:00:00Z",
+    "read": true
+  },
+  {
+    "id": "2",
+    "senderId": "5",
+    "senderName": "Sam Sales",
+    "content": "The lead from TechCorp looks promising.",
+    "timestamp": "2024-03-20T11:30:00Z",
+    "read": true
+  },
+  {
+    "id": "3",
+    "senderId": "2",
+    "senderName": "Sarah Supervisor",
+    "content": "Please submit the Q2 budget request by Friday.",
+    "timestamp": "2024-03-21T08:15:00Z",
+    "read": true
+  }
+]

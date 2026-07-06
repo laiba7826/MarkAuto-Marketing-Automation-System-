@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg: #0c1a3a;
+    --bg-gradient-from: #172554;
+    --bg-gradient-to: #1e3a8a;
+    --surface: rgba(30, 58, 138, 0.55);
+    --surface-solid: #1e3a8a;
+    --surface-alt: rgba(30, 64, 175, 0.45);
+    --surface-hover: rgba(37, 99, 235, 0.25);
+    --text: #f8fafc;
+    --text-secondary: #93c5fd;
+    --text-muted: #60a5fa;
+    --border: rgba(59, 130, 246, 0.35);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --primary: #0ea5e9;
+    --primary-light: #38bdf8;
+    --primary-dark: #0284c7;
+    --accent: #14b8a6;
+    --primary-foreground: #ffffff;
+    --shadow: 0 16px 40px -8px rgba(15, 23, 42, 0.45);
+    --shadow-sm: 0 4px 12px -2px rgba(15, 23, 42, 0.35);
+    --shadow-lg: 0 25px 50px -12px rgba(15, 23, 42, 0.55);
+  }
+
+  [data-theme='light'] {
+    color-scheme: light;
+    --bg: #f0f9ff;
+    --bg-gradient-from: #e0f2fe;
+    --bg-gradient-to: #bae6fd;
+    --surface: #ffffff;
+    --surface-solid: #ffffff;
+    --surface-alt: #f0f9ff;
+    --surface-hover: #e0f2fe;
+    --text: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --border-subtle: #e2e8f0;
+    --primary: #0284c7;
+    --primary-light: #0ea5e9;
+    --primary-dark: #075985;
+    --accent: #0d9488;
+    --primary-foreground: #ffffff;
+    --shadow: 0 16px 40px -8px rgba(15, 23, 42, 0.12);
+    --shadow-sm: 0 4px 12px -2px rgba(15, 23, 42, 0.08);
+    --shadow-lg: 0 25px 50px -12px rgba(15, 23, 42, 0.15);
+  }
+
+  body {
+    @apply antialiased font-sans;
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .app-bg {
+    @apply min-h-screen;
+    background: linear-gradient(to bottom, var(--bg-gradient-from), var(--bg-gradient-to));
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl text-sm font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    box-shadow: var(--shadow-sm);
+    color: var(--primary-foreground);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-colors;
+    color: var(--text-secondary);
+  }
+
+  .btn-secondary:hover {
+    color: var(--text);
+  }
+
+  .btn-action {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all;
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+    color: var(--primary-foreground);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .btn-action:hover {
+    filter: brightness(1.08);
+  }
+
+  .card {
+    @apply rounded-2xl border p-6;
+    background: var(--surface);
+    border-color: var(--border);
+    color: var(--text);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(12px);
+  }
+
+  .surface-card {
+    @apply rounded-[1.75rem] border p-6;
+    background: var(--surface-alt);
+    border-color: var(--border-subtle);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .input-field {
+    @apply w-full rounded-2xl border px-4 py-3 text-sm shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-offset-1;
+    background: rgba(15, 23, 42, 0.35);
+    border-color: var(--border);
+    color: var(--text);
+  }
+
+  [data-theme='light'] .input-field {
+    background: #ffffff;
+    border-color: var(--border);
+    color: var(--text);
+  }
+
+  .input-field::placeholder {
+    color: var(--text-muted);
+    opacity: 0.7;
+  }
+
+  .input-field:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 20%, transparent);
+  }
+
+  .page-title {
+    @apply text-3xl md:text-4xl font-black tracking-tight;
+    color: var(--text);
+  }
+
+  .page-subtitle {
+    @apply text-base max-w-2xl;
+    color: var(--text-secondary);
+  }
+
+  .section-title {
+    @apply text-xl font-black;
+    color: var(--text);
+  }
+
+  .section-muted {
+    @apply text-sm;
+    color: var(--text-muted);
+  }
+
+  .data-table {
+    @apply w-full text-left border-collapse;
+  }
+
+  .data-table thead tr {
+    @apply text-[11px] font-black uppercase tracking-[0.1em] border-b;
+    background: var(--surface-alt);
+    color: var(--text-secondary);
+    border-color: var(--border);
+  }
+
+  .data-table thead th {
+    @apply px-6 py-4;
+  }
+
+  .data-table tbody {
+    @apply divide-y divide-blue-800/30;
+  }
+
+  .data-table tbody tr {
+    @apply transition-colors;
+  }
+
+  .data-table tbody tr:hover {
+    background: var(--surface-hover);
+  }
+
+  .data-table tbody td {
+    @apply px-6 py-4;
+    color: var(--text-secondary);
+  }
+
+  .data-table tbody td.cell-strong {
+    @apply font-bold;
+    color: var(--text);
+  }
+
+  .topbar-input {
+    @apply w-full pl-12 pr-4 py-3 rounded-2xl text-sm shadow-sm transition-all focus:outline-none focus:ring-2;
+    background: rgba(15, 23, 42, 0.35);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .topbar-input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.7;
+  }
+
+  .topbar-input:focus {
+    border-color: var(--primary);
+    --tw-ring-color: color-mix(in srgb, var(--primary) 40%, transparent);
+  }
+
+  .theme-option {
+    @apply w-full text-left rounded-3xl p-4 border transition;
+    border-color: var(--border);
+    background: var(--surface-alt);
+    color: var(--text);
+  }
+
+  .theme-option:hover {
+    background: var(--surface-hover);
+  }
+
+  .theme-option-active {
+    border-color: var(--primary);
+    background: color-mix(in srgb, var(--primary) 12%, transparent);
+  }
+}

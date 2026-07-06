@@ -1,0 +1,53 @@
+[
+  {
+    "name": "marketing",
+    "platform": "Instagram",
+    "budget": -49,
+    "status": "Active",
+    "metrics": {
+      "clicks": 0,
+      "impressions": 0,
+      "conversions": 0
+    },
+    "id": "1782403163550"
+  },
+  {
+    "id": "1",
+    "name": "Q1 Product Launch",
+    "status": "Active",
+    "budget": 50000,
+    "platform": "Instagram",
+    "owner": "Mark Marketing",
+    "metrics": {
+      "clicks": 12500,
+      "impressions": 500000,
+      "conversions": 450
+    }
+  },
+  {
+    "id": "2",
+    "name": "Summer Sale Prep",
+    "status": "Draft",
+    "budget": 20000,
+    "platform": "Email",
+    "owner": "Mark Marketing",
+    "metrics": {
+      "clicks": 0,
+      "impressions": 0,
+      "conversions": 0
+    }
+  },
+  {
+    "id": "3",
+    "name": "Brand Awareness",
+    "status": "Completed",
+    "budget": 15000,
+    "platform": "YouTube",
+    "owner": "Mark Marketing",
+    "metrics": {
+      "clicks": 8000,
+      "impressions": 200000,
+      "conversions": 120
+    }
+  }
+]

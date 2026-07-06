@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Idrees",
+    "email": "laibaidrees2006@gmail.com",
+    "role": "Supervisor",
+    "status": "Inactive",
+    "phone": "0318-1071826",
+    "id": "1782403048927"
+  },
+  {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@marketing.com",
+    "role": "Admin",
+    "status": "Active",
+    "phone": "0300-1111111"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Supervisor",
+    "email": "sarah@marketing.com",
+    "role": "Supervisor",
+    "status": "Active",
+    "phone": "0300-2222222"
+  },
+  {
+    "id": "3",
+    "name": "Mark Marketing",
+    "email": "mark@marketing.com",
+    "role": "Marketing",
+    "status": "Active",
+    "phone": "0300-3333333"
+  },
+  {
+    "id": "4",
+    "name": "Cathy Content",
+    "email": "cathy@marketing.com",
+    "role": "Content",
+    "status": "Active",
+    "phone": "0300-4444444"
+  },
+  {
+    "id": "5",
+    "name": "Sam Sales",
+    "email": "sam@marketing.com",
+    "role": "Sales",
+    "status": "Inactive",
+    "phone": "0300-5555555"
+  }
+]

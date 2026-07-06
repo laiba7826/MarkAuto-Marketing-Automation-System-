@@ -1,7 +1,7 @@
 # 🚀 MarkAuto – Advanced Marketing Automation System
 
 <p align="center">
-  <img src="screenshots/hero.png" alt="MarkAuto Banner" width="100%">
+  <img src="screenshots/her.png" alt="MarkAuto Banner" width="100%">
 </p>
 
 <p align="center">

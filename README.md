@@ -1,7 +1,13 @@
 # 🚀 MarkAuto – Advanced Marketing Automation System
 
+# 📸 Application Preview
+
 <p align="center">
-  <img src="screenshots/her.png" alt="MarkAuto Banner" width="100%">
+  <img src="./landingpg1.png" width="19%" alt="Landing Page 1">
+  <img src="./2.png" width="19%" alt="Landing Page 2">
+  <img src="./3.png" width="19%" alt="Landing Page 3">
+  <img src="./4.png" width="19%" alt="Landing Page 4">
+  <img src="./5.png" width="19%" alt="Landing Page 5">
 </p>
 
 <p align="center">

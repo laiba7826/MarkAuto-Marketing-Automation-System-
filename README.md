@@ -22,11 +22,15 @@ An advanced Marketing Automation System that streamlines campaign planning, budg
 ---
 
 ## 📸 Application Preview
-
-<p align="center">
-  <img src="./landing-full.png" width="100%">
-</p>
-
+<table align="center">
+<tr>
+<td><img src="./landingpg1.png" height="180"></td>
+<td><img src="./2.png" height="180"></td>
+<td><img src="./3.png" height="180"></td>
+<td><img src="./4.png" height="180"></td>
+<td><img src="./5.png" height="180"></td>
+</tr>
+</table>
 ---
 
 ## 📖 About

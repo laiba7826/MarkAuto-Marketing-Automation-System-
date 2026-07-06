@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MarkAuto — Marketing Automation System (Frontend)
 
 A React + TypeScript + Vite single-page interface for the Marketing Automation System.
@@ -54,3 +55,7 @@ src/
 - Data is in-memory: changes persist for the session and reset on reload.
 - To connect a real backend, replace `mocks/data.ts` seeds and the `useCollection`
   calls with API requests (e.g. fetch/axios) per page.
+=======
+# MarkAuto-Marketing-Automation-System
+An advanced Marketing Automation System that streamlines campaign planning, budget approval workflows, content management, strategy execution, and lead generation through role-based collaboration.
+>>>>>>> 5c185c32c65f419528a7ea86f8199824ce7d383f

@@ -234,27 +234,6 @@ MarkAuto
 └── README.md
 ```
 
----
-
-# 📸 Application Preview
-
-## Landing Page
-
-> Add your landing page screenshot here.
-
-## Dashboard
-
-> Add dashboard screenshot here.
-
-## Budget Approval
-
-> Add approval page screenshot here.
-
-## Sales Dashboard
-
-> Add sales dashboard screenshot here.
-
----
 
 # 🚀 Installation
 
@@ -293,18 +272,7 @@ npm run dev
 - 🔔 Real-Time Notifications
 - ☁ Cloud Deployment
 - 📈 Predictive Lead Scoring
-
----
-
-# 🤝 Contributors
-
-| Name | Role |
-|------|------|
-| Laiba | Project Lead & Full Stack Developer |
-| Your Team Member | Contributor |
-| Your Team Member | Contributor |
-
----
+]
 
 # ⭐ Show Your Support
 

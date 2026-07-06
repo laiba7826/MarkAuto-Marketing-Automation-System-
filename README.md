@@ -1,20 +1,11 @@
 # 🚀 MarkAuto – Advanced Marketing Automation System
 
-# 📸 Application Preview
+<h3 align="center">
+Enterprise Marketing Workflow Platform
+</h3>
 
 <p align="center">
-  <img src="./landingpg1.png" width="19%" alt="Landing Page 1">
-  <img src="./2.png" width="19%" alt="Landing Page 2">
-  <img src="./3.png" width="19%" alt="Landing Page 3">
-  <img src="./4.png" width="19%" alt="Landing Page 4">
-  <img src="./5.png" width="19%" alt="Landing Page 5">
-</p>
-
-<p align="center">
-  <h3 align="center">Enterprise Marketing Workflow Platform</h3>
-  <p align="center">
-    Streamline campaign planning, budget approvals, content management, strategy execution, and lead generation through an intelligent role-based workflow.
-  </p>
+An advanced Marketing Automation System that streamlines campaign planning, budget approvals, content management, strategy execution, and lead generation through an intelligent role-based workflow.
 </p>
 
 <p align="center">
@@ -24,33 +15,46 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
 </p>
 
 ---
 
-# 📖 About
+## 📸 Application Preview
 
-MarkAuto is an **Advanced Marketing Automation System** designed to simplify and automate the complete marketing lifecycle. The platform enables seamless collaboration between multiple departments through a structured approval workflow, making campaign planning, content management, budget approvals, and lead generation more efficient.
-
-Unlike traditional marketing systems, MarkAuto introduces a role-based architecture where every department performs specialized tasks while remaining connected through a centralized workflow.
+<p align="center">
+  <img src="./landingpg1.png" width="18%" alt="Landing Page 1">
+  <img src="./2.png" width="18%" alt="Landing Page 2">
+  <img src="./3.png" width="18%" alt="Landing Page 3">
+  <img src="./4.png" width="18%" alt="Landing Page 4">
+  <img src="./5.png" width="18%" alt="Landing Page 5">
+</p>
 
 ---
 
-# ✨ Core Features
+## 📖 About
 
-- 🔐 Secure Role-Based Authentication
-- 👨‍💼 Admin Management Portal
-- 📈 Marketing Strategy Planning
-- 💰 Budget Request & Approval Workflow
-- 🔄 Counter Budget Proposal System
-- 🎨 Content Creation & Review
+MarkAuto is an **Advanced Marketing Automation System** developed to automate and simplify the complete marketing lifecycle through a centralized role-based workflow.
+
+The platform enables organizations to efficiently manage campaigns, strategies, budget approvals, content creation, and sales operations while ensuring smooth collaboration between multiple departments.
+
+The system includes five dedicated user roles that work together in a structured approval process, making marketing operations faster, organized, and more efficient.
+
+---
+
+## 🚀 Quick Highlights
+
+- 👥 Five Dedicated User Roles
+- 💰 Budget Approval Workflow
+- 📈 Marketing Strategy Management
+- 🎨 Content Creation & Scheduling
 - 📢 Campaign Management
-- 🤝 Sales Lead Management
-- 📬 Internal Messaging System
+- 🤝 Sales Lead Generation
+- 📬 Internal Messaging
 - 📊 Analytics Dashboard
-- 🌙 Modern Responsive Interface
+- 🔐 Secure Role-Based Authentication
+- 🌐 Modern Responsive User Interface
 
 ---
 
@@ -70,7 +74,7 @@ Unlike traditional marketing systems, MarkAuto introduces a role-based architect
 - Review Marketing Strategies
 - Approve Budget Requests
 - Reject Requests
-- Send Counter Offers
+- Send Counter Budget Proposals
 - Monitor Team Activities
 
 ---
@@ -78,7 +82,7 @@ Unlike traditional marketing systems, MarkAuto introduces a role-based architect
 ## 📈 Marketing Team
 
 - Create Marketing Campaigns
-- Develop Strategies
+- Develop Marketing Strategies
 - Submit Budget Requests
 - Track Campaign Progress
 
@@ -95,8 +99,8 @@ Unlike traditional marketing systems, MarkAuto introduces a role-based architect
 
 ## 💼 Sales Team
 
-- Generate Leads
-- Manage Sales Pipeline
+- Generate Sales Leads
+- Manage Customer Pipeline
 - Track Revenue
 - Analyze Sales Performance
 
@@ -116,9 +120,9 @@ Submit Budget Request
        ▼
 Supervisor Review
        │
- ┌─────┼─────────┐
- │     │         │
- ▼     ▼         ▼
+ ┌─────┼────────────┐
+ │     │            │
+ ▼     ▼            ▼
 Approve Reject Counter
  │
  ▼
@@ -141,65 +145,65 @@ Reports & Analytics
 
 # 🖥️ System Modules
 
-### Admin
+### 👑 Admin
 
 - User Management
 - Platform Management
 - Site Content
-- Settings
+- System Settings
 
-### Marketing
+### 📈 Marketing Team
 
-- Campaign Management
-- Budget Requests
+- Marketing Campaigns
 - Strategy Planning
+- Budget Requests
 
-### Supervisor
+### 👨‍💼 Supervisor
 
-- Approval Dashboard
-- Budget Review
-- Counter Proposal
+- Budget Approval
+- Budget Counter Offers
+- Strategy Review
 
-### Content
+### 🎨 Content Creator
 
-- Upload Assets
-- Schedule Content
+- Content Scheduling
+- Upload Media
 - Strategy Management
 
-### Sales
+### 💼 Sales Team
 
-- Lead Board
-- Revenue Dashboard
+- Lead Management
+- Revenue Tracking
 - Sales Reports
 
-### Shared
+### 🌐 Shared Modules
 
 - Dashboard
-- Messages
 - Profile
+- Messages
 - Support Center
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - React 18
 - TypeScript
 - Vite
 - Tailwind CSS
-- React Router
+- React Router DOM
 - Recharts
-- Lucide Icons
+- Lucide React
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
 - TypeScript
 
-### Development Tools
+## Development Tools
 
 - Git
 - GitHub
@@ -215,70 +219,85 @@ MarkAuto
 │
 ├── backend
 │   ├── src
-│   ├── data
+│   ├── routes
+│   ├── controllers
 │   └── package.json
 │
 ├── public
 │
-├── screenshots
-│
 ├── src
+│   ├── assets
 │   ├── components
 │   ├── context
 │   ├── hooks
 │   ├── pages
-│   ├── assets
-│   └── types
+│   ├── types
+│   └── utils
+│
+├── landingpg1.png
+├── 2.png
+├── 3.png
+├── 4.png
+├── 5.png
 │
 ├── package.json
 └── README.md
 ```
 
+---
 
 # 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/laiba7826/MarkAuto-Marketing-Automation-System-.git
 ```
 
-Navigate into the project
+### Navigate to the project
 
 ```bash
 cd MarkAuto-Marketing-Automation-System-
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the application
+### Start the development server
 
 ```bash
 npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
 ```
 
 ---
 
 # 🎯 Future Enhancements
 
-- 🤖 AI-powered Marketing Recommendations
-- 📧 Email Campaign Automation
-- 📱 Social Media Integration
+- 🤖 AI-powered Campaign Recommendations
+- 📧 Email Marketing Automation
+- 📱 Social Media Platform Integration
+- ☁ Cloud Deployment
 - 📊 Advanced Business Analytics
 - 🔔 Real-Time Notifications
-- ☁ Cloud Deployment
 - 📈 Predictive Lead Scoring
-]
+- 📅 Campaign Performance Forecasting
+
+---
 
 # ⭐ Show Your Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
-It helps others discover the project and supports future development.
+It motivates the team to continue improving the project and helps others discover it.
 
 ---
 

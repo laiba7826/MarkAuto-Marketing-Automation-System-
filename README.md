@@ -5,7 +5,7 @@ Enterprise Marketing Workflow Platform
 </h3>
 
 <p align="center">
-An advanced Marketing Automation System that streamlines campaign planning, budget approvals, content management, strategy execution, and lead generation through an intelligent role-based workflow.
+An advanced <b>Marketing Automation System</b> that streamlines campaign planning, budget approvals, content management, strategy execution, and lead generation through an intelligent role-based workflow.
 </p>
 
 <p align="center">
@@ -19,9 +19,18 @@ An advanced Marketing Automation System that streamlines campaign planning, budg
 
 </p>
 
+<p align="center">
+
+![GitHub Repo Size](https://img.shields.io/github/repo-size/laiba7826/MarkAuto-Marketing-Automation-System-?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/laiba7826/MarkAuto-Marketing-Automation-System-?style=for-the-badge)
+![Top Language](https://img.shields.io/github/languages/top/laiba7826/MarkAuto-Marketing-Automation-System-?style=for-the-badge)
+
+</p>
+
 ---
 
-## 📸 Application Preview
+# 📸 Application Preview
+
 <table align="center">
 <tr>
 <td><img src="./landingpg1.png" height="180"></td>
@@ -31,19 +40,20 @@ An advanced Marketing Automation System that streamlines campaign planning, budg
 <td><img src="./5.png" height="180"></td>
 </tr>
 </table>
----
-
-## 📖 About
-
-MarkAuto is an **Advanced Marketing Automation System** developed to automate and simplify the complete marketing lifecycle through a centralized role-based workflow.
-
-The platform enables organizations to efficiently manage campaigns, strategies, budget approvals, content creation, and sales operations while ensuring smooth collaboration between multiple departments.
-
-The system includes five dedicated user roles that work together in a structured approval process, making marketing operations faster, organized, and more efficient.
 
 ---
 
-## 🚀 Quick Highlights
+# 📖 About
+
+MarkAuto is an **Advanced Marketing Automation System** designed to automate and simplify the complete marketing lifecycle through a centralized role-based workflow.
+
+The platform enables organizations to efficiently manage campaigns, marketing strategies, budget approvals, content creation, and sales operations while ensuring seamless collaboration across multiple departments.
+
+With dedicated user roles and an intelligent approval workflow, MarkAuto improves productivity, transparency, and overall marketing efficiency.
+
+---
+
+# ✨ Key Features
 
 - 👥 Five Dedicated User Roles
 - 💰 Budget Approval Workflow
@@ -54,7 +64,7 @@ The system includes five dedicated user roles that work together in a structured
 - 📬 Internal Messaging
 - 📊 Analytics Dashboard
 - 🔐 Secure Role-Based Authentication
-- 🌐 Modern Responsive User Interface
+- 🌐 Fully Responsive Interface
 
 ---
 
@@ -84,7 +94,7 @@ The system includes five dedicated user roles that work together in a structured
 - Create Marketing Campaigns
 - Develop Marketing Strategies
 - Submit Budget Requests
-- Track Campaign Progress
+- Track Campaign Performance
 
 ---
 
@@ -92,7 +102,7 @@ The system includes five dedicated user roles that work together in a structured
 
 - Prepare Marketing Content
 - Upload Campaign Assets
-- Manage Content Schedule
+- Manage Content Scheduling
 - Review Content Quality
 
 ---
@@ -187,7 +197,7 @@ Reports & Analytics
 
 # 🛠 Tech Stack
 
-## Frontend
+## 🎨 Frontend
 
 - React 18
 - TypeScript
@@ -197,13 +207,13 @@ Reports & Analytics
 - Recharts
 - Lucide React
 
-## Backend
+## ⚙ Backend
 
 - Node.js
 - Express.js
 - TypeScript
 
-## Development Tools
+## 💻 Development Tools
 
 - Git
 - GitHub
@@ -246,43 +256,21 @@ MarkAuto
 
 ---
 
-# 🚀 Installation
+# 👨‍💻 Meet the Team
 
-### Clone the repository
-
-```bash
-git clone https://github.com/laiba7826/MarkAuto-Marketing-Automation-System-.git
-```
-
-### Navigate to the project
-
-```bash
-cd MarkAuto-Marketing-Automation-System-
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start the development server
-
-```bash
-npm run dev
-```
-
-### Build for production
-
-```bash
-npm run build
-```
+| 👤 Member | 💼 Role |
+|-----------|---------|
+| **👩‍💼 Sadia Shoaib** | Project Manager & Team Lead |
+| **👩‍💻 Laiba Idrees** | Backend Developer & AI Integration |
+| **👨‍💻 Ali Raza** | Frontend Developer |
+| **🎨 Manal** | UI/UX Designer |
+| **📚 Alishba Batool** | Research & Documentation |
 
 ---
 
-# 🎯 Future Enhancements
+# 🚀 Future Roadmap
 
-- 🤖 AI-powered Campaign Recommendations
+- 🤖 AI-Powered Campaign Recommendations
 - 📧 Email Marketing Automation
 - 📱 Social Media Platform Integration
 - ☁ Cloud Deployment
@@ -293,14 +281,53 @@ npm run build
 
 ---
 
+# 📊 Project Statistics
+
+| Category | Details |
+|-----------|---------|
+| 👥 User Roles | 5 |
+| 🖥 System Modules | 12+ |
+| ⚛ Frontend | React + TypeScript |
+| 🚀 Backend | Node.js + Express |
+| 🎨 Styling | Tailwind CSS |
+| 🔐 Security | Role-Based Authentication |
+
+---
+
+# 🌟 Why MarkAuto?
+
+✅ Centralized Marketing Management
+
+✅ Intelligent Budget Approval Workflow
+
+✅ Role-Based Secure Access
+
+✅ Modern Responsive Dashboard
+
+✅ Scalable Enterprise Architecture
+
+✅ Easy Team Collaboration
+
+---
+
 # ⭐ Show Your Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
-It motivates the team to continue improving the project and helps others discover it.
+Your support motivates our team to continue improving MarkAuto and building better software.
 
 ---
 
 <p align="center">
-Made with ❤️ using React, TypeScript, Node.js & Express
+
+## 🚀 MarkAuto
+
+### Enterprise Marketing Automation Platform
+
+Made with ❤️ by the **MarkAuto Development Team**
+
+**React • TypeScript • Node.js • Express • Tailwind CSS**
+
+⭐ **Thanks for visiting our project!**
+
 </p>

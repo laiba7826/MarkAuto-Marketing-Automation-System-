@@ -260,8 +260,8 @@ MarkAuto
 
 | 👤 Member | 💼 Role |
 |-----------|---------|
-| **👩‍💼 Sadia Shoaib** | Project Manager & Team Lead |
-| **👩‍💻 Laiba Idrees** | Backend Developer & AI Integration |
+| **👩‍💼 Sadia Shoaib** | Project Manager & Backened Developer |
+| **👩‍💻 Laiba Idrees** | Backend Developer & DIAGRAMS MAKER FOR THE PROJECT |
 | **👨‍💻 Ali Raza** | Frontend Developer |
 | **🎨 Manal** | UI/UX Designer |
 | **📚 Alishba Batool** | Research & Documentation |
